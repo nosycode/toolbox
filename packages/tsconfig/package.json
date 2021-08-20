@@ -1,0 +1,29 @@
+{
+  "name": "@nosycode/tsconfig",
+  "version": "0.0.0",
+  "description": "Common tsconfigs to be used as your base configurations",
+  "keywords": [
+    "typescript"
+  ],
+  "author": "nosycode <nosycode@gmail.com>",
+  "homepage": "https://github.com/nosycode/toolbox#readme",
+  "license": "MIT",
+  "main": "tsconfig.json",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosycode/toolbox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/nosycode/toolbox/issues"
+  }
+}
