@@ -1,6 +1,13 @@
 {
   "name": "toolbox",
   "private": true,
+  "scripts": {
+    "release": "env-cmd lerna version",
+    "postversion": "lerna publish from-git"
+  },
+  "dependencies": {
+    "env-cmd": "10.1.0"
+  },
   "devDependencies": {
     "lerna": "4.0.0"
   }

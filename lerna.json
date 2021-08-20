@@ -5,7 +5,10 @@
   "version": "0.0.0",
   "command": {
     "create": {
-      "license": "MIT"
+      "license": "MIT",
+      "publishConfig": {
+        "access": "public"
+      }
     },
     "version": {
       "allowBranch": "main",

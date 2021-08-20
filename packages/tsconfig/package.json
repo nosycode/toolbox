@@ -5,9 +5,16 @@
   "keywords": [
     "typescript"
   ],
-  "author": "nosycode <nosycode@gmail.com>",
   "homepage": "https://github.com/nosycode/toolbox#readme",
+  "bugs": {
+    "url": "https://github.com/nosycode/toolbox/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosycode/toolbox.git"
+  },
   "license": "MIT",
+  "author": "nosycode <nosycode@gmail.com>",
   "main": "tsconfig.json",
   "directories": {
     "lib": "lib",
@@ -16,14 +23,10 @@
   "files": [
     "tsconfig.json"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nosycode/toolbox.git"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "bugs": {
-    "url": "https://github.com/nosycode/toolbox/issues"
+  "publishConfig": {
+    "access": "public"
   }
 }
