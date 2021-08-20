@@ -1,6 +1,7 @@
 {
   "name": "toolbox",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "release": "env-cmd lerna version",
     "postversion": "lerna publish from-git"
@@ -10,5 +11,9 @@
   },
   "devDependencies": {
     "lerna": "4.0.0"
+  },
+  "engines": {
+    "node": ">=14.15.0 <15",
+    "npm": ">=6.14.8 <7"
   }
 }
